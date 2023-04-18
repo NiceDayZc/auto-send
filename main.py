@@ -34,7 +34,7 @@ def get_messages():
 def send_msg(tokens, channels_id, messages):
     _hi = post(F"https://ptb.discord.com/api/v9/channels/{channels_id}/messages",headers=get_headers(tokens), json=get_json(messages))
     if _hi.status_code in [200, 201, 204]:
-        print(F"send {messages} | {_hi.json()['id']} | sleep {randint(3,10)}")
+        print(F"send {messages} | {_hi.json()['id']} | sleep {randint(3,6)}")
         sleep(randint(3,6))
     else:
         print(F"error {_hi.text}")
