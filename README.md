@@ -1,7 +1,7 @@
 <div align="center">
   <kbd>
   <a href="https://github.com/NiceDayZc/auto-send">
-    <img src="https://gyazo.com/3f10464382be32debd2640ef488ba599" alt="Logo" width="800" height="500">
+    <img src="https://media.discordapp.net/attachments/1097802451035373618/1097804653015605279/image.png" alt="Logo" width="800" height="500">
   </a>
   </kbd>
   
